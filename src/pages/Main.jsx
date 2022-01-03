@@ -167,7 +167,7 @@ const LinkContainer = styled.div`
  & > #link-about-me {
      color : #fdfdfd;
      font-size : 30px;
-     font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
  }
 
    @media screen and (max-width : 775px) {
