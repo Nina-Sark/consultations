@@ -119,7 +119,6 @@ const SubTitle = styled.div`
 
 const Span = styled.div`
      font-weight: 400;
-    font-weight: 375;
     font-size : ${(props) => props.size};
     color : ${(props) => props.color};
    // font-family: 'Roboto', sans-serif;
