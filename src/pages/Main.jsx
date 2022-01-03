@@ -168,6 +168,7 @@ const LinkContainer = styled.div`
      color : #fdfdfd;
      font-size : 30px;
     // font-family: 'Roboto', sans-serif;
+    font-weight: 375;
  }
 
    @media screen and (max-width : 775px) {
