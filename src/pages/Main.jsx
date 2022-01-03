@@ -43,7 +43,7 @@ function Main() {
             {/* First Column */}
             <div>
             <div onMouseOver={handleHide}>
-            <StyledLink style={{ color : "#fff" }} to="/about-me">Обо мне</StyledLink>
+            <StyledLink style={{ color : "#fff" }} to="/about-me">About me</StyledLink>
               <Title>
               Career boosting for <span>modern professionals</span>
               </Title>
@@ -59,7 +59,7 @@ function Main() {
             {/* Second Column */}
             <SecondColumn>
                 <LinkContainer>
-                   <Link style={{ color : "#fff", fontSize : "30px" }} to="/about-me">Обо мне</Link>
+                   <Link id="link-about-me" to="/about-me">Обо мне</Link>
                 </LinkContainer>
                 <MainHoverContainer>
                 <ArrowImage
@@ -158,9 +158,17 @@ const Button = styled.button`
 `
 
 const LinkContainer = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
    width : 95%;
   text-align: right;
  margin-top: 1.2em;
+  
+ & > #link-about-me {
+     color : #fdfdfd;
+     font-size : 30px;
+     font-family: 'Roboto', sans-serif;
+ }
 
    @media screen and (max-width : 775px) {
        display: none;

@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 export const Title = styled.div`
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
     width : 980px;
     font-size : 70px;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
     margin-bottom: 0.4em;
-    color : #fff;
+    color : #FFFFFF;
 
     & > span {
         color : ${(props) => props.theme.main};

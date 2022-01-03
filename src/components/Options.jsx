@@ -41,7 +41,7 @@ function Options() {
                <Circle></Circle>
                <Span>$10 за инструкцию</Span>
                </Title>
-               <SubTitle>
+               <SubTitle width="475px">
                    <Span color="#c2bebe" size="15px">Видео с подробными инструкциями по build and deploy вашего резюме в онлайн формате</Span>
                </SubTitle>
            </div>
@@ -61,7 +61,7 @@ function Options() {
                <Circle></Circle>
                <Span>$25 за страницу</Span>
                </Title>
-               <SubTitle>
+               <SubTitle width="523px">
                    <Span color="#c2bebe" size="15px">Проверим все пункты, на которые обращают внимание при приеме на работу. Раскрою все секреты грамотного и продающего резюме</Span>
                </SubTitle>
            </div>
@@ -81,7 +81,7 @@ function Options() {
                <Circle></Circle>
                <Span>$20 за 30 минут</Span>
                </Title>
-               <SubTitle>
+               <SubTitle width="523px">
                    <Span color="#c2bebe" size="15px">Отвечу на любые вопросы. Поделюсь своим экспертным мнением </Span>
                </SubTitle>
            </div>
@@ -101,31 +101,40 @@ function Options() {
                <Circle></Circle>
                <Span>$15 за собеседование</Span>
                </Title>
-               <SubTitle>
-                   <Span color="#c2bebe" size="15px"><span style={{ color : theme.main }}>Скачивайте приложение,</span> используйте его чтобы записать собеседование и поделиться со мной. Мы обсудим и найдем моменты где улучшить результат</Span>
+               <SubTitle width="599px">
+                   <Span color="#A7A7A7" size="15px"><span style={{ color : theme.main }}>Скачивайте приложение,</span> используйте его чтобы записать собеседование и поделиться со мной. Мы обсудим и найдем моменты где улучшить результат</Span>
                </SubTitle>
            </div>
 
-         <ButtonComponent title="Заказать"/>
+         <ButtonComponent radius="10px" title="Заказать"/>
         </OptionsContainer>
     )
 }
 
 const SubTitle = styled.div`
-    width : 475px;
+    width : ${(props) => props.width};
     margin-top: 0.3em;
+    line-height: 20px;
 `
 
 const Span = styled.div`
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
     font-weight: 400;
     font-size : ${(props) => props.size};
-    color : ${(props) => props.color}
+    color : ${(props) => props.color};
+    font-family: 'Roboto', sans-serif;
 `
 
 const Title = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
     display: flex;
     align-items: center;
     gap : 0.5em;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 `
 
 

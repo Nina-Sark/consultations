@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const OrderSectionContainer = styled.div`
    background : #353535;
-   border-radius: 25px;
+   border-radius: 22px;
    display: grid;
    grid-template-columns: 1fr 1fr;
    column-gap : 3em;

@@ -32,6 +32,7 @@ const CardTitle = styled.div`
 
   @media screen and (max-width : 775px) {
        width : 100%;
+       font-weight: 375;
     }
 
     @media screen and (min-width : 775px) and (max-width : 1450px) {
@@ -41,9 +42,13 @@ const CardTitle = styled.div`
 
 const OptionText = styled.div`
   width : 311px;
+  color : #D3D3D3;
+  font-weight: 400;
+
 
   @media screen and (max-width : 775px) {
        width : 100%;
+       font-weight: 375;
     }
 `
 
@@ -58,7 +63,7 @@ const CardOption = styled.div`
 
     @media screen and (max-width : 775px) {
       width : 100%;
-      gap : 0.26em;
+      gap : 0.36em;
     }
        
 `

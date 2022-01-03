@@ -7,7 +7,9 @@ import avatar from "../assets/avatar.png";
 import bottomLine from "../assets/vectorLine.svg";
 import brain from "../assets/Brain.svg";
 import Card from "../components/Card";
+import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 import CardsContainer from "../components/CardsContainer";
+import { isMobile } from "react-device-detect";
 
 function About() {
     return (
@@ -16,7 +18,9 @@ function About() {
                 <div>
                   <Flex>
                       <div>
-                          <LinkContainer to="/">Назад</LinkContainer>
+                          <LinkContainer to="/">
+                             {isMobile ?  <HiOutlineArrowNarrowLeft style={{ fontSize : "35px" }}/> : "Назад"}
+                          </LinkContainer>
                           <Title>
                             <span>Anatoly Raklyar</span>
                           </Title>
@@ -81,7 +85,8 @@ const CardContainerTitle = styled.div`
         font-size : 20px;
 
         @media screen and (max-width : 775px) {
-            color : #fff;
+            color : #FFFFFF;
+            font-weight: 375;
         }
     }
 
@@ -134,9 +139,12 @@ const Description = styled.div`
     font-size : 17px;
     font-weight: 400;
     margin-top: 1em;
+    color : #FFFFFF;
 
     @media screen and (max-width : 775px) {
       width : 100%;
+      font-weight: 375;
+      font-size : 17px;
     }
 
     @media screen and (min-width : 775px) and (max-width : 1250px) {
@@ -146,18 +154,20 @@ const Description = styled.div`
 
 const Title = styled.div`
     font-size : 30px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 0.4em;
 
     @media screen and (max-width : 775px) {
-       font-size: 22px;;
+       font-size: 25px;
+       color : #fff;
+       font-weight : 700;
    }
 `
 
 const LinkContainer = styled(Link)`
     font-size : 20px;
     font-weight: 400;
-    color : #ffffffd8;
+    color : #FFFFFF;
     text-decoration: none;
     margin-bottom: 2em;
 

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const OrderSectioninput = styled.input`
    width : 460px;
-   padding : 10px 15px 10px 15px;
+   padding : 14px 15px;
    border-radius: 16px;
    border : 1px solid ${(props) => props.theme.secondary};
    background: transparent;

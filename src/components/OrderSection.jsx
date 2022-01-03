@@ -20,20 +20,24 @@ function OrderSection() {
 }
 
 const OrderSectionTitle = styled.div`
-    color : #ffffffda;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    color : #FFFFFF;
     font-size : 24px;
     font-weight: 400;
     width : 600px;
+  //  font-family: 'Roboto', sans-serif;
 
     
    @media screen and (max-width : 775px) {
        font-size : 17px;
        text-align: center;
+       font-weight: 375;;
        padding : 1em;
        box-sizing: border-box;
        border-bottom: 1px solid #ebe9e9ae;
        width : 100%;
-       color : #fff;
+       color : #FFFFFF;
    }
 `
 
@@ -42,8 +46,13 @@ const StyledLink = styled(Link)`
 `
 
 const OrderSectionSubtitle = styled.div`
-    color : rgba(255, 255, 255, 0.63);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+    color : #ACACAC;
     font-size : 17px;
+   // font-family: 'Roboto', sans-serif;
+    line-height: 22px;;
     font-weight : 400;
     margin-top : 1em;
     width : 550px;
@@ -53,6 +62,7 @@ const OrderSectionSubtitle = styled.div`
        width : 95%;
        font-size : 15px;
        color : #fff;
+       font-weight: 375;;
    }
    `
 

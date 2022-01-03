@@ -40,12 +40,12 @@ function MobileOptionContainer({title, subtitle, details, highlighted, details2}
                    <CustomCheckbox/>
                </div>
                <div>
-                   <MobileTitle>{title}</MobileTitle>
+                   <MobileTitle><p>{title}</p></MobileTitle>
                    <MobileSubTitle>
-                       <CircleComponent/> {subtitle}
+                       <CircleComponent/> <span>{subtitle}</span>
                    </MobileSubTitle>
 
-                   {highlighted && <StyledLink><Link style={{ color : "rgba(255, 255, 255, 0.486)" }} to="/galary">Галерея hot резюме здесь</Link></StyledLink>}
+                   {highlighted && <StyledLink><Link id="link" to="/galary">Галерея hot резюме здесь</Link></StyledLink>}
 
                    {active && (
                        <div style={{ marginBottom : "0.5em" }}>
@@ -74,21 +74,30 @@ export default MobileOptionContainer
 
 
 const Details = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
     font-size : 15px;
-    color : rgba(255, 255, 255, 0.692);
+    color : #D3D3D3;
     margin-top: 0.9em;
+    line-height: 20px;
+    font-weight : 376;
 `
 
 const StyledLink = styled.div`
-        font-size : 16px;
-    margin-top : 0.5em;
+    margin-top : 0.35em;
+
+    & > #link {
+       color :#7C7C7C;
+       font-weight: 400;
+       font-size : 17px;
+    }
 `
 
 const MobileOption = styled.div`  
-   position: relative;
+    position: relative;
     width : 100%;
     box-sizing: border-box;
-   padding : 0.8em 0.6em;
+    padding : 0.8em 0.6em;
     display: none;
     border-radius: 7px;
     height : max-content;
@@ -103,13 +112,33 @@ const MobileOption = styled.div`
 `
 
 const MobileTitle = styled.div`
-   font-size : 17px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  & > p {
+    font-size : 17px;
+   font-weight : 375;
+   font-style: normal;
+   line-height: 24px;
+   color : #FFFFFF;
+   //font-family: 'Roboto';
+ // font-family: sans-serif;
+  }
 `
 
 const MobileSubTitle = styled.div`
-    font-size : 17px;
-    margin-top: 0.3em;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+   
+    margin-top: 0.2em;
     display: flex;
     align-items: center;
-    gap : 0.4em;
+    gap : 0.4em; 
+    color : #FFFFFF;
+   & > span {
+    line-height: 24px;
+   font-size : 17px;
+   font-style: normal;
+   font-weight: 375;
+   }
+  // font-family: 'Roboto', sans-serif;
 `
