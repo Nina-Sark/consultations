@@ -80,7 +80,7 @@ const Details = styled.div`
     color : #D3D3D3;
     margin-top: 0.9em;
     line-height: 20px;
-    font-weight : 376;
+    font-weight : 375;
 `
 
 const StyledLink = styled.div`
@@ -114,20 +114,21 @@ const MobileOption = styled.div`
 const MobileTitle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+font-weight: 375;
+
   & > p {
     font-size : 17px;
    font-weight : 375;
    font-style: normal;
    line-height: 24px;
    color : #FFFFFF;
-   //font-family: 'Roboto';
- // font-family: sans-serif;
   }
 `
 
 const MobileSubTitle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+font-weight: 375;
    
     margin-top: 0.2em;
     display: flex;
@@ -140,5 +141,4 @@ const MobileSubTitle = styled.div`
    font-style: normal;
    font-weight: 375;
    }
-  // font-family: 'Roboto', sans-serif;
 `
