@@ -118,16 +118,15 @@ const SubTitle = styled.div`
 `
 
 const Span = styled.div`
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-  
-    font-weight: 410;
+
+    font-weight: 375;
     font-size : ${(props) => props.size};
     color : ${(props) => props.color};
    // font-family: 'Roboto', sans-serif;
 `
 
 const Title = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
     display: flex;
     align-items: center;
