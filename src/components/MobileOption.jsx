@@ -114,11 +114,11 @@ const MobileOption = styled.div`
 const MobileTitle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-font-weight: 375;
+font-weight: 300 !important;
 
   & > p {
     font-size : 17px;
-   font-weight : 0;
+   font-weight : 300 !important;
    font-style: normal;
    line-height: 24px;
    color : #FFFFFF;
@@ -139,6 +139,6 @@ font-weight: 300;
     line-height: 24px;
    font-size : 17px;
    font-style: normal;
-   font-weight: 300;
+   font-weight: 300 !important;
    }
 `
