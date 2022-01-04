@@ -127,9 +127,6 @@ const MobileTitle = styled.div`
 `
 
 const MobileSubTitle = styled.div`
-
-
-   
     margin-top: 0.2em;
     display: flex;
     align-items: center;
@@ -139,7 +136,7 @@ const MobileSubTitle = styled.div`
     line-height: 24px;
    font-size : 17px;
    font-style: normal;
-   font-weight: 375;
+   font-weight: 100 !important;
    }
   // font-family: 'Roboto', sans-serif;
 `
