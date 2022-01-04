@@ -118,7 +118,7 @@ font-weight: 375;
 
   & > p {
     font-size : 17px;
-   font-weight : 300;
+   font-weight : 0;
    font-style: normal;
    line-height: 24px;
    color : #FFFFFF;
