@@ -114,7 +114,7 @@ const MobileOption = styled.div`
 const MobileTitle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-font-weight: 300 !important;
+font-weight: 900 !important;
 
   & > p {
     font-size : 17px;
