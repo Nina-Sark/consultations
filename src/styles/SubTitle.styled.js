@@ -13,7 +13,7 @@ export const SubTitle = styled.p`
        width : 95%;
        font-size: 17px;
        margin-top : 0.5em;
-       font-weight: 375;
+       font-weight: 300;
    }
 
    @media screen and (min-width : 775px) and (max-width : 1280px) {

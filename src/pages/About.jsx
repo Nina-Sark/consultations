@@ -86,7 +86,7 @@ const CardContainerTitle = styled.div`
 
         @media screen and (max-width : 775px) {
             color : #FFFFFF;
-            font-weight: 375;
+            font-weight: 300;
         }
     }
 
@@ -143,7 +143,7 @@ const Description = styled.div`
 
     @media screen and (max-width : 775px) {
       width : 100%;
-      font-weight: 375;
+      font-weight: 300;
       font-size : 17px;
     }
 

@@ -80,7 +80,7 @@ const Details = styled.div`
     color : #D3D3D3;
     margin-top: 0.9em;
     line-height: 20px;
-    font-weight : 375;
+    font-weight : 300;
 `
 
 const StyledLink = styled.div`
@@ -118,7 +118,7 @@ font-weight: 375;
 
   & > p {
     font-size : 17px;
-   font-weight : 375;
+   font-weight : 300;
    font-style: normal;
    line-height: 24px;
    color : #FFFFFF;
@@ -128,7 +128,7 @@ font-weight: 375;
 const MobileSubTitle = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-font-weight: 375;
+font-weight: 300;
    
     margin-top: 0.2em;
     display: flex;
@@ -139,6 +139,6 @@ font-weight: 375;
     line-height: 24px;
    font-size : 17px;
    font-style: normal;
-   font-weight: 375;
+   font-weight: 300;
    }
 `
