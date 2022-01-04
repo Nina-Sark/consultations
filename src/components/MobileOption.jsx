@@ -120,7 +120,7 @@ font-weight: 900 !important;
    font-weight : 900 !important;
    font-style: normal;
    line-height: 24px;
-   color : #FFFFFF;
+   color : red !important;
   }
 `
 
