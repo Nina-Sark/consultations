@@ -32,7 +32,7 @@ const OrderSectionTitle = styled.div`
    @media screen and (max-width : 775px) {
        font-size : 17px;
        text-align: center;
-       font-weight: 375;;
+       font-weight: 300;;
        padding : 1em;
        box-sizing: border-box;
        border-bottom: 1px solid #ebe9e9ae;
@@ -62,7 +62,7 @@ const OrderSectionSubtitle = styled.div`
        width : 95%;
        font-size : 15px;
        color : #fff;
-       font-weight: 375;;
+       font-weight: 300;;
    }
    `
 
