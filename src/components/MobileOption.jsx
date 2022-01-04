@@ -74,13 +74,14 @@ export default MobileOptionContainer
 
 
 const Details = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
     font-size : 15px;
     color : #D3D3D3;
     margin-top: 0.9em;
     line-height: 20px;
-    font-weight : 376;
+    font-weight : 375;
+    font-style: normal;
 `
 
 const StyledLink = styled.div`
@@ -112,7 +113,7 @@ const MobileOption = styled.div`
 `
 
 const MobileTitle = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
   & > p {
     font-size : 17px;
@@ -126,7 +127,7 @@ const MobileTitle = styled.div`
 `
 
 const MobileSubTitle = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
    
     margin-top: 0.2em;
