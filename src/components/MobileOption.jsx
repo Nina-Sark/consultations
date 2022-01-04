@@ -80,7 +80,7 @@ const Details = styled.div`
     color : #D3D3D3;
     margin-top: 0.9em;
     line-height: 20px;
-    font-weight : 300;
+    font-weight : 0;
 `
 
 const StyledLink = styled.div`
